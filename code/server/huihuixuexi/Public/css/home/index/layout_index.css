@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+body{
+	background-color:#00A2E8;
+}
+.title_bar{
+	height:80px;
+	background-color:#0A7344;
+	margin-bottom:8px;
+}
+.tab_left{
+	height:270px;
+	width:290px;
+	background-color:#21A675;
+	margin-left:200px;
+	margin-right:10px;
+	margin-bottom:8px;
+	float:left;
+}
+.tab_right{
+	height:270px;
+	width:290px;
+	background-color:#21A675;
+	margin-right:200px;
+	margin-bottom:8px;
+	float:right;
+}
+.tab_style{
+	font-size:30px;
+	text-align:center;
+	vertical-align:middle;
+	line-hight:270px;
+}
+.clear_float{
+	clear:both;
+}

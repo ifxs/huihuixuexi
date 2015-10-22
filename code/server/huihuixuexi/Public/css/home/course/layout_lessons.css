@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+.title_bar{
+	height:80px;
+	background-color:#0A7344;
+	margin-bottom:8px;
+}
+.course_box{
+	margin-left:300px;
+	margin-top:8px;
+}
+.lesson_box{
+	margin-top:8px;
+}

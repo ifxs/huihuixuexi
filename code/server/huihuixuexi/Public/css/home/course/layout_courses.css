@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+.title_bar{
+	height:80px;
+	background-color:#0A7344;
+	margin-bottom:8px;
+}

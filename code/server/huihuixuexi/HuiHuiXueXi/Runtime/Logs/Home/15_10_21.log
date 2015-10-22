@@ -1,0 +1,893 @@
+[ 2015-10-21T17:45:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000625s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003979s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005692s ]
+
+[ 2015-10-21T23:04:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000551s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005835s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004810s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006209s ]
+
+[ 2015-10-21T23:04:41+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000555s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005788s ]
+ERR: 无法加载控制器:Course
+
+[ 2015-10-21T23:05:09+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000552s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006016s ]
+ERR: 无法加载控制器:Course
+
+[ 2015-10-21T23:05:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000552s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005724s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001679s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005056s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006120s ]
+
+[ 2015-10-21T23:05:24+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000551s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005583s ]
+ERR: 无法加载控制器:Course
+
+[ 2015-10-21T23:05:27+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000556s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005555s ]
+ERR: 无法加载控制器:Course
+
+[ 2015-10-21T23:05:41+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000563s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005580s ]
+ERR: 无法加载控制器:Course
+
+[ 2015-10-21T23:07:31+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000562s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005535s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0111s ]
+ERR: Think\Model:filed方法不存在！
+
+[ 2015-10-21T23:07:48+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000558s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005614s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined variable: GET G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php 第 14 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id=%d ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id=%d ) 
+
+[ 2015-10-21T23:10:04+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000554s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005568s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined variable: GET G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php 第 15 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id= ) 
+
+[ 2015-10-21T23:10:24+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000877s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008448s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0101s ]
+SQL: SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id=1 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 16 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001599s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005904s ]
+
+[ 2015-10-21T23:11:37+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000551s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006609s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0101s ]
+SQL: SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id=1 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 16 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001534s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004751s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005876s ]
+
+[ 2015-10-21T23:11:40+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000555s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005970s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0112s ]
+SQL: SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id=1 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 16 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001679s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005020s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043840s ]
+
+[ 2015-10-21T23:12:11+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000557s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005752s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0114s ]
+SQL: SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id=1 )  [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 16 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001532s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004748s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005651s ]
+
+[ 2015-10-21T23:12:12+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000558s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006254s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0108s ]
+SQL: SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id=1 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 16 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001540s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004788s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006581s ]
+
+[ 2015-10-21T23:12:13+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000553s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005980s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0105s ]
+SQL: SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id=1 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 16 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004813s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007019s ]
+
+[ 2015-10-21T23:12:35+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000551s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005430s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0102s ]
+SQL: SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id=1 )  [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 16 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001532s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006160s ]
+
+[ 2015-10-21T23:13:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000550s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005753s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001535s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004837s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005774s ]
+
+[ 2015-10-21T23:13:19+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000594s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006119s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0144s ]
+SQL: SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id=2 )  [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 16 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001928s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005745s ]
+
+[ 2015-10-21T23:13:24+08:00 ] 127.0.0.1 /index.php/Home/Course/courses/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000564s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005534s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0102s ]
+SQL: SELECT `id`,`course_name`,`teacher_name` FROM `course` WHERE ( category_id=1 )  [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 16 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001556s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004850s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005985s ]
+
+[ 2015-10-21T23:13:44+08:00 ] 127.0.0.1 /index.php/Home/Course/lessons/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000552s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007582s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `course` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lesson` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined variable: GET G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php 第 33 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `lesson` WHERE ( course_id =%d ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d )' at line 1
+ [ SQL语句 ] : SELECT * FROM `lesson` WHERE ( course_id =%d ) 
+
+[ 2015-10-21T23:13:57+08:00 ] 127.0.0.1 /index.php/Home/Course/lessons/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000570s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005712s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `course` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lesson` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lesson` WHERE ( course_id =1 )  [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 35 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001579s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004799s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005647s ]
+
+[ 2015-10-21T23:14:31+08:00 ] 127.0.0.1 /index.php/Home/Course/lessons/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000552s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005635s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `course` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lesson` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `lesson` WHERE ( course_id =1 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 35 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001688s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005635s ]
+
+[ 2015-10-21T23:14:54+08:00 ] 127.0.0.1 /index.php/Home/Course/lessons/c_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000553s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005942s ]
+SQL: SHOW COLUMNS FROM `course` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `course` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lesson` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `lesson` WHERE ( course_id =1 )  [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\CourseController.class.php on line 35 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001559s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004852s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005599s ]
+
+[ 2015-10-21T23:20:29+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000571s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005684s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001538s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004873s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006007s ]
+
+[ 2015-10-21T23:22:03+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000551s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005748s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001541s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004945s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005741s ]
+
+[ 2015-10-21T23:22:23+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000604s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006259s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001615s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005032s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005534s ]
+
+[ 2015-10-21T23:22:25+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000550s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006947s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006396s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005715s ]
+
+[ 2015-10-21T23:22:27+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000613s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005801s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001536s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005009s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005922s ]
+
+[ 2015-10-21T23:24:50+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000562s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006304s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001542s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004975s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006600s ]
+
+[ 2015-10-21T23:26:01+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000559s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005870s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005036s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005545s ]
+
+[ 2015-10-21T23:27:25+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000597s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005796s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005075s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005770s ]
+
+[ 2015-10-21T23:27:26+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000551s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005529s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001540s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004939s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005654s ]
+
+[ 2015-10-21T23:28:07+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000571s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006008s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001558s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005077s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005842s ]
+
+[ 2015-10-21T23:28:08+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000552s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005710s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001559s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005921s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005814s ]
+
+[ 2015-10-21T23:28:26+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000553s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005745s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001560s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004986s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005893s ]
+
+[ 2015-10-21T23:28:28+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000631s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005552s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004954s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005629s ]
+
+[ 2015-10-21T23:30:06+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000591s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005844s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001556s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005073s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 27 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005925s ]
+
+[ 2015-10-21T23:30:15+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000556s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005884s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005575s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 24 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005677s ]
+
+[ 2015-10-21T23:30:23+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000555s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006483s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001667s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005182s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 25 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005768s ]
+
+[ 2015-10-21T23:30:35+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000558s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006293s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Home\Controller\IndexController.class.php on line 18 and defined G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\blog\huihuixuexi\code\server\huihuixuexi\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001544s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005077s ]
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 24 行.
+NOTIC: [8] Undefined variable: result G:\blog\huihuixuexi\code\server\huihuixuexi\HuiHuiXueXi\Runtime\Cache\Home\002af6b6628908e3c461917409cd79f8.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005923s ]
+
